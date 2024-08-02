@@ -1,11 +1,7 @@
 import React from 'react'
 import Devan from '../assets/img/divan.png'
-import QoraStol from '../assets/img/divan.png'
-import Stol from "../assets/img/divan.png";
-import Stol1 from "../assets/img/divan.png";
-import Stol2 from "../assets/img/divan.png";
-import Kottadevan from "../assets/img/divan.png";
-import kichik from "../assets/img/image.png"
+
+
 
 const Home = () => {
   return (
@@ -16,10 +12,10 @@ const Home = () => {
             <div class="flex  justify-between ">
               <div class="flex space-x-2 flex-col w-[20%] items-center gap-3">
                 <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={QoraStol} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Stol} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Stol1} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Stol2} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
               </div>
               <img src={Devan} alt="Asgaard sofa" class="w-[85%]" />
 
@@ -72,30 +68,30 @@ const Home = () => {
           </div>
           <p className='my-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea qui officia modi, iure quidem voluptatem optio saepe iusto explicabo debitis esse fugit enim eveniet culpa eum quisquam ab? Quam, fuga.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae, natus cupiditate vitae esse corrupti doloribus laboriosam asperiores temporibus magnam expedita ea aliquid deleniti quas eos velit ipsa. Fugiat, saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dicta!</p>
           <div className='flex justify-around mt-9'>
-            <img src={Kottadevan} alt="" />
-            <img src={Kottadevan} alt="" />
+            <img src={Devan} alt="" />
+            <img src={Devan} alt="" />
           </div>
 
           <div className='text-3xl text-center mt-10'>
             <h1>Reaolat Product</h1>
             <div class="grid grid-cols-4 gap-4 text-center text-[20px] mt-10">
               <div className='text-center'>
-                <img src={kichik} className='mx-auto'  />
+                <img src={Devan} className='mx-auto'  />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={kichik} className='mx-auto' />
+                <img src={Devan} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={kichik} className='mx-auto' />
+                <img src={Devan} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={kichik} className='mx-auto' />
+                <img src={Devan} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>

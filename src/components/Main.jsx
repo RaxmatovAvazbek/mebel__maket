@@ -1,6 +1,29 @@
 import React from "react";
 import Divan from "../assets/img/divan.png";
 import Kreslo from "../assets/img/kreslo.png"
+const blogs = [
+    {
+        id: 1,
+        title: "Going all-in with millennial design",
+        date: "12th Oct 2022",
+        readTime: "5 min",
+        image: "path_to_image_1"
+    },
+    {
+        id: 2,
+        title: "Going all-in with millennial design",
+        date: "12th Oct 2022",
+        readTime: "5 min",
+        image: "path_to_image_2"
+    },
+    {
+        id: 3,
+        title: "Going all-in with millennial design",
+        date: "12th Oct 2022",
+        readTime: "5 min",
+        image: "path_to_image_3"
+    }
+];
 
 const Main = () => {
   return (
