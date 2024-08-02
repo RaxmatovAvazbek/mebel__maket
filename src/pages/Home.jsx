@@ -1,5 +1,15 @@
 import React from 'react'
-import Devan from '../assets/img/divan.png'
+import "../style.css"
+import Divan from "../assets/img/divan.png";
+import Kravat from "../assets/img/kravat.png"
+import Kreslo from "../assets/img/kreslo.png"
+// import Bar from "../assets/img/bar.png"
+import Stal from "../assets/img/stal.png"
+import Table from "../assets/img/table1.png"
+// import Table2 from "../assets/img/table2.png"
+// import Page1 from "../assets/img/page1.png"
+// import Page2 from "../assets/img/page2.png"
+// import Page3 from "../assets/img/page3.png"
 
 
 
@@ -11,13 +21,13 @@ const Home = () => {
           <div class="lg:w-1/2 p-5">
             <div class="flex  justify-between ">
               <div class="flex space-x-2 flex-col w-[20%] items-center gap-3">
-                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
-                <img src={Devan} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Kravat} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Stal} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Kreslo} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Divan} alt="Asgaard sofa" class="w-16 h-16" />
+                <img src={Table} alt="Asgaard sofa" class="w-16 h-16" />
               </div>
-              <img src={Devan} alt="Asgaard sofa" class="w-[85%]" />
+              <img src={Divan} alt="Asgaard sofa" class="w-[85%]" />
 
             </div>
           </div>
@@ -68,30 +78,30 @@ const Home = () => {
           </div>
           <p className='my-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea qui officia modi, iure quidem voluptatem optio saepe iusto explicabo debitis esse fugit enim eveniet culpa eum quisquam ab? Quam, fuga.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae, natus cupiditate vitae esse corrupti doloribus laboriosam asperiores temporibus magnam expedita ea aliquid deleniti quas eos velit ipsa. Fugiat, saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dicta!</p>
           <div className='flex justify-around mt-9'>
-            <img src={Devan} alt="" />
-            <img src={Devan} alt="" />
+            <img src={Divan} alt="" />
+            <img src={Divan} alt="" />
           </div>
 
           <div className='text-3xl text-center mt-10'>
             <h1>Reaolat Product</h1>
             <div class="grid grid-cols-4 gap-4 text-center text-[20px] mt-10">
               <div className='text-center'>
-                <img src={Devan} className='mx-auto'  />
+                <img src={Divan} className='mx-auto'  />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={Devan} className='mx-auto' />
+                <img src={Kravat} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={Devan} className='mx-auto' />
+                <img src={Stal} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>
               <div>
-                <img src={Devan} className='mx-auto' />
+                <img src={Kreslo} className='mx-auto' />
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>narx 1500</p>
               </div>

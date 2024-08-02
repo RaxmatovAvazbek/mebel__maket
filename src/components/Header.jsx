@@ -5,7 +5,7 @@ import { AiOutlineUser, AiOutlineSearch, AiOutlineHeart } from 'react-icons/ai';
 const Header = () => {
   return (
     <>
-        <nav className="bg-orange-400">
+        <nav className=" bg-orange-100">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div>
                     
@@ -43,7 +43,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a href="#" className="block py-2 px-3 md:p-0 text-black ">Contact</a>
-                        </li>
+                  </li>
                     </ul>
                 </div>
             </div>
