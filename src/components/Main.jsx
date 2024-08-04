@@ -88,7 +88,7 @@ const Main = () => {
               <h1 className="text-5xl mb-6">Side Table</h1>
               <>
                 <button className="button-class tugma text-base">
-                  Wiew More
+                  Wiew More d
                 </button>
               </>
             </div>
