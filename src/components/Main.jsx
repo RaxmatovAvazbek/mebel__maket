@@ -109,7 +109,7 @@ const Main = () => {
         <div className="container blog-section text-center  mb-10 h-[100%]">
             <h2 className="text-5xl mb-8">Top Picks For You</h2>
             <p className="text-lg mb-32">Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
-            <div className="m-auto  w-[100%] blogs flex justify-between mb-10">
+            <div className="m-auto  w-[100%] blogs flex flex-wrap max-sm:text-center justify-between mb-10">
                 {Cards.map(blog => (
                     <div className="blog-card text-center" key={blog.id}>
                         <img className="h-60 object-cover mb-5" src={blog.image} alt={blog.title} />
@@ -124,7 +124,7 @@ const Main = () => {
         </div>
 
       <div className="hero kreslo h-[100vh] flex">
-      <div className="m-auto  flex items-center justify-between">
+      <div className="m-auto  avagard flex items-center justify-between ">
           <div className="asgaard-sofa-image">
             <img src={Kreslo} alt="Asgaard sofa" />
           </div>
@@ -136,7 +136,7 @@ const Main = () => {
         </div>
       </div>
       </div>
-      <div className="container blog-section text-center">
+      <div className="container  blog-section text-center">
             <h2 className="text-5xl my-4">Our Blogs</h2>
             <p className="text-lg mb-32">Find a bright idea to suit your taste with our great selection</p>
             <div className="blogs flex justify-evenly my-5">
@@ -146,8 +146,8 @@ const Main = () => {
                         <h3 className="text-base font-bold mb-4">{blog.title}</h3>
                         <button className="mb-3 border-b-2  border-b-zinc-500">Read More</button>
                         <div className="blog-info">
-                            <span className="mr-2">🕒 {blog.readTime}</span>
-                            <span>📅 {blog.date}</span>
+                            <span className="mr-2">{blog.readTime}</span>
+                            <span>{blog.date}</span>
                         </div>
                     </div>
                 ))}

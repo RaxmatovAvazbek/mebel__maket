@@ -20,7 +20,7 @@ const Home = () => {
         <div class="flex flex-col lg:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="lg:w-1/2 p-5">
             <div class="flex  justify-between ">
-              <div class="flex space-x-2 flex-col w-[20%] items-center gap-3">
+              <div class="flex space-x-2 flex-col w-[20%] items-center gap-3 flex-wrap">
                 <img src={Kravat} alt="Asgaard sofa" class="w-16 h-16" />
                 <img src={Stal} alt="Asgaard sofa" class="w-16 h-16" />
                 <img src={Kreslo} alt="Asgaard sofa" class="w-16 h-16" />
